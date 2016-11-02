@@ -44,7 +44,7 @@ nav li a {
 }
 
 a:hover:not(.active) {
-    background-color: #111;
+    background-color: #bce2db;
 }
 
 .active {
