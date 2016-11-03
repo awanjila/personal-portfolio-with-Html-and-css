@@ -1,52 +1,75 @@
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4b5be5;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4b5be5;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4b5be5;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4b5be5;
 }
 
 nav li {
-    float: left;
+	float: left;
 }
 
 nav li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 a:hover:not(.active) {
-    background-color: #bce2db;
+	background-color: #bce2db;
 }
 
 .active {
-background-color:#ad4522;
+	background-color:#ad4522;
 }
 }
 
 nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
 }
 
 a:hover:not(.active) {
-    background-color: #bce2db;
+	background-color: #bce2db;
 }
 
 .active {
-background-color:#ad4522;
+	background-color:#ad4522;
+}
+.contact-item {
+  font-size: 1.1em;
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.contact-item a {
+  color: #fff;
+}
+
+.contact-item i {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 1.7em;
+  display: inline-block;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  color: #ef476f;
+}
+#contact{
+	background-color: #4b5be5;
 }
