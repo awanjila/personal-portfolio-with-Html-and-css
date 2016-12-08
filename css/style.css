@@ -74,3 +74,18 @@ a:hover:not(.active) {
 	background-color: #4b5be5;
 	color:white;
 }
+body{
+	font-style: 
+}
+.flash {
+   animation-name: flash;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+@keyframes flash {
+    from {color: #32ff32;}
+    to {color: white;}
+}
